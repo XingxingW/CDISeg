@@ -2,6 +2,7 @@
 Official repository for our paper:
 
 > **[Class-Domain Incremental Segmentation for Remote Sensing Images]**
+
 > Xingxing Weng, Chao Pang, Jiayu Li, Xiaoqian Sun, and Gui-Song Xia
 
 ---
@@ -28,5 +29,6 @@ If you find this work useful, please consider citing:
   year={2025},
   publisher={IEEE}
 }
+
 
 ** Acknowledgement
