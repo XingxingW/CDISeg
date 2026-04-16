@@ -32,12 +32,12 @@ Please download the images from the original datasets. We only provide the datas
 
 Organize the datasets as follows:
 
+```
 datasets/
 ├── ISPRS/{Annotations, Images, splits}
-
 ├── OpenEarthMap/{Annotations, Images, splits}
-
 └── Potsdam/{Annotations, Images, splits}
+```
 
 ## Training
 
