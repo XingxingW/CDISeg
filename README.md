@@ -6,15 +6,19 @@ Official repository for our paper:
 
 ---
 
-** Overview
+## Overview
 
-** Requirements
+CDISeg is an incremental learning framework for remote sensing semantic segmentation that enables cross-domain knowledge accumulation. It allows models to progressively learn new classes from new domains while recognizing all learned classes across all encountered domains during inference. We term this incremental setting class-domain incremental learning.
 
-** Datasets
+## Requirements
 
-** Training
+## Datasets
 
-** Citation
+
+
+## Training
+
+## Citation
 
 If you find this work useful, please consider citing:
 
@@ -30,4 +34,4 @@ If you find this work useful, please consider citing:
 }
 ```
 
-** Acknowledgement
+## Acknowledgement
