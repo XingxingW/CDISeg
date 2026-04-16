@@ -16,7 +16,17 @@ CDISeg is an incremental learning framework for remote sensing semantic segmenta
 
 ## Datasets
 
+We use the [ISPRS](https://www.isprs.org/resources/datasets/benchmarks/UrbanSemLab/) dataset and [OpenEarthMap](https://www.isprs.org/resources/datasets/benchmarks/UrbanSemLab/) to simulate joint incremental learning across classes and domains.
 
+Please download the images from the original datasets. We only provide the dataset splits used in our experiments. Required preprocessing steps:
+
+1. **Image size normalization.** All images are resized or cropped to **512×512**.  
+   - **ISPRS:** non-overlapping cropping is applied; overlap is used only when necessary to cover remaining regions.  
+   - **OpenEarthMap:** images larger than 512 are non-overlappingly cropped, while smaller ones are directly resized to 512.
+
+2. **Train/test split.** We follow the original dataset splits with minor adjustments:  
+   - **ISPRS-Vaihingen:** due to limited training data, the validation set is merged into the training set.  
+   - **OpenEarthMap:** since test labels are unavailable, the validation set is used for testing.
 
 ## Training
 
