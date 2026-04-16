@@ -58,3 +58,7 @@ If you find this work useful, please consider citing:
 ```
 
 ## Acknowledgement
+
+This work is developed based on the [LwS](https://lttm.dei.unipd.it/paper_data/LwS/) framework. 
+
+We sincerely thank the authors for their original implementation.
