@@ -28,6 +28,13 @@ Please download the images from the original datasets. We only provide the datas
    - **ISPRS-Vaihingen:** due to limited training data, the validation set is merged into the training set.  
    - **OpenEarthMap:** since test labels are unavailable, the validation set is used for testing.
 
+Organize the datasets as follows:
+
+datasets/
+├── ISPRS/{Annotations, Images, splits}
+├── OpenEarthMap/{Annotations, Images, splits}
+└── Potsdam/{Annotations, Images, splits}
+
 ## Training
 
 ## Citation
